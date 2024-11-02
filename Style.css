@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 2.5em;
+}
+.hero p {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+.cta-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+.feature-item {
+    width: 30%;
+    text-align: center;
+}
+.feature-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Courses Section */
+.courses {
+    text-align: center;
+    padding: 50px 20px;
+}
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.course-item {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+.testimonial {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
